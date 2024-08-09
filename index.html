@@ -3,33 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curriculum VItae</title>
+    <link rel="icon" href="images/3135800.png" type="image/png">
+
+    <style>
+        header nav ul {
+            display: flex;
+            gap: 15em;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        header nav ul li {
+            text-decoration: none;
+        }
+
+        aside img {
+            display: flex;
+            max-width: 7%;
+            height: auto;
+        }
+
+        header article h1 {
+            font-size: 2rem;
+        }
+
+        .Info {
+            display: flex;
+            justify-content: right;
+            align-items: left;
+            margin-top: -17%;
+            padding-right: 13%;
+        }
+
+        .hero {
+            margin-top: 10%;
+        }
+
+        footer h3 {
+            display: flex;
+            justify-content: center;
+            gap: 10em;
+        }
+
+        footer ul {
+            display: flex;
+            justify-content: center;
+            gap: 10em;
+        }
+        
+    </style>
 </head>
+
+
 <body>
     <header>
-        <nav>
-            
-        </nav>
+        <!-- Links to different section of the CV by id -->
+            <nav style="background-color: rgb(224, 224, 224);">
+                <ul>
+                    <li><a href="#Work-experience">Work Experience</a></li>    
+                    <li><a href="#Skills">Skills</a></li>    
+                    <li><a href="#Education">Education</a></li>    
+                    <li><a href="#Technical-Skills">Technical Skills</a></li>
+                    <li><a href="#Hobbies">Hobbies</a></li>
+                </ul>
+            </nav>
+        <!-- Links to different section of the CV by id -->
+
+            <aside>
+                <img src="Images/ProfilePhoto.jpg" alt="Photo of Myself">
+            </aside>
+
+        <!-- Personal information and description -->
+            <article>
+                <section style="background-color: rgba(253, 246, 236, 0.952);">
+                    <h1>Olteanu Eduard</h1>
+                    <h3>Junior Web Developer</h3>
+                    <p>
+                    Aspiring Web Developer and a strong believer in the ability to comprehend a deep and thorough understanding of the tools and mechanism behind web development to push forward ingenious innovation. Eager to apply my skills in building responsive, user-friendly websites and web applications. Passionate about learning new technologies and excited to contribute to innovative projects while growing my expertise in the field.
+                    </p>
+                </section>
+
+                <section class="Info">
+                    <h4>Info</h4>
+                    <ul>
+                        <li>Email: e.olteanu991@gmail.com</li>
+                        <li>Telephone: 0731411578</li>
+                        <li>Location: Targoviste Romania</li>
+                        <li>GitHub Profile: https://github.com/BlackFlame-hub</li>
+                        <li>Instagram: Eduard_ionut_</li>
+                    </ul>
+                </section>
+            </article>
+        <!-- Personal information and description -->
     </header>
 
-    <div class="hero">
-        <section>
-            <header>
-                <h1>MyCV Page</h1>
-            </header>
+    <!-- Main info with essential information -->
+    <article class="hero"> 
+        <section style="background-color: rgba(222, 238, 238, 0.541);">
+        <h3 id="Work-experience">Work Experience:</h3>
+        <h5>CS Representative - Mood Media:</h5>
+            <ul>
+                <li>Managing devices through various control websites and software to add/remove/install/edit/shipping order etc</li>
+                <li>Working with various teams (technicians on site, Account Managers etc.) and clients to troubleshoot and install devices</li>
+                <li>Training and support of new employees</li>
+            </ul>
         </section>
-        <article>
-            My bio
-        </article>
-    </div>
-    
-    <div class="hero-left">
-        <aside>
-            <article>
 
-            </article>
-        </aside>
-    </div>
+        <section style="background-color: rgba(208, 223, 223, 0.582);">
+            <h3 id="Skills">Skills:</h3>
+            <ul>
+                <li>Creativity</li>
+                <li>Problem Solving</li>
+                <li>Attention to detail</li>
+                <li>Teamwork and effective communication</li>
+                <li>Perseverance</li>
+                <li>Adaptability</li>
+            </ul>
+        </section>
+
+        <section style="background-color: rgba(205, 230, 222, 0.541);">
+            <h3 id="Education">Education</h3>
+
+            <h5>Beet Root Academy Front End Development:</h5>
+            <ul>
+                <li>HTML, CSS, JAVASCRIPT</li>
+                <li>Responsive Web Layout</li>
+                <li>Figma Web Design</li>
+            </ul>
+
+            <h5>DesignCourse Front End Development Crash Course:</h5>
+            <ul>
+                <li>HTML, CSS, JAVASCRIPT</li>
+                <li>Responsive Web Layout</li>
+                <li>Figma Web Design</li>
+            </ul>
+
+            <h5>InfoGates Sinaia 2010 contest:</h5>
+            <ul>
+                <li>Basic HTML website</li>
+            </ul>
+        </section>
+
+        <section style="background-color: rgba(241, 217, 221, 0.541);">
+            <h3 id="Technical-Skills">Technical Skills:</h3>
+            <ul>
+                <li>Graphics – Adobe Creative Suite (Photoshop, Lightroom, Premiere)</li>
+                <li>Autocad</li>
+                <li>Platforms: Windows, Microsoft Office, VSCode</li>
+            </ul>
+        </section>
+    </article>
+    <!-- Main info with essential information -->
+
+
+    <footer style="background-color: rgba(229, 236, 204, 0.541);">
+        <h3 id="Hobbies">Hobbies and Interests:</h3>
+        <ul>
+            <li>Photography</li>
+            <li>Slackline</li>
+            <li>Artificial Intelligence</li>
+            <li>Virtual Reality</li>
+            <li>Video Games</li>
+        </ul>
+    </footer>
 
 </body>
 </html>
